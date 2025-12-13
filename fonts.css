@@ -1,0 +1,107 @@
+/*
+make navbar less transparent
+*/
+
+body {
+    /* font-family: var(--bs-font-sans-serif); */
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse {
+        background-color: rgba(36, 74, 60, 0.2); /* Transparent green background */
+
+    }
+  }
+
+.navbar-brand img {
+    width: 80px; /* Adjust as needed */
+    height: auto;
+  }
+
+  .footer {
+    background-color: rgb(36, 74, 60) !important;
+  }
+
+
+  
+  /* Smaller navigation items */
+  .small-nav-item {
+    font-size: 0.9rem; /* Adjust size for smaller text */
+  }
+  
+  
+  
+  /* Hover effect for links */
+ 
+  /* Make the toggle icon visible */
+  
+
+  .glassy-background {
+    backdrop-filter: blur(8px); /* Slight blur for a subtle glassy effect */
+    background: rgba(29, 182, 82, 0.5); /* Transparent green background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08); /* Softer shadow */
+    border-radius: 10px; /* Keep rounded corners */
+    padding: 20px; /* Maintain spacing inside the element */
+}
+  
+
+.nav-div {
+    background-color: #212529;
+    align-items: center;
+}
+
+.img-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Navbar styling */
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    background-color: #417e54 !important;
+    padding: 10px;
+    margin: 0 0 0 0;
+    list-style: none;
+}
+
+.selected {
+    color: #FFD700 !important;
+  }
+
+.navbar a:not(.selected) {
+    color: #B0B0B0 !important;
+
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: #F1E3A4 !important; /* Golden color */
+  }
+  
+
+
+
+/* Credits bar styling */
+.credits{
+
+    text-align: center;
+    color: white;
+    background-color: black;
+    top: 80%;
+    right: 50%;
+    transform: translate(0, 100%);
+}
+
+.nav-div {
+    opacity: 0.9;
+}

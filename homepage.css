@@ -1,0 +1,167 @@
+/* General Reset */
+html, body {
+    height: 100%;
+    margin: 0;
+    /* font-family: Garamond, serif;; */
+        background-color: rgb(36 74 60) !important;
+    
+}
+
+body {
+    background-color: #fbeee0;
+    color: black    ;
+}
+
+/* Title Section */
+.title-section {
+    background: linear-gradient(135deg, #ffff, #4da167); /* Green gradient */
+    position: relative;
+    text-align: center;
+    opacity: 0; /* Start hidden */
+    transform: translateY(-50px); /* Slide down effect */
+    animation: fadeInSlideDown 1.5s ease-out forwards; /* Animate on page load */
+}
+
+.title-overlay {
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    position: relative;
+    padding: 20px;
+}
+
+.title-text {
+    color: white;
+    font-size: 3rem;
+    font-family: Garamond, serif;;
+    z-index: 1;
+    margin: 0;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), no-repeat center center/cover;
+    background-image: url('https://ishr.ch/wp-content/uploads/2021/07/shutterstock_1091235845.jpg');
+    background-size: cover; 
+    
+    background-position: center; 
+    width: 100%;
+    padding-top: 50vh; 
+    
+    height: 100vh;
+    opacity: 0; 
+    transform: translateY(50px); 
+    animation: fadeInSlideUp 1.5s ease-out 0.5s forwards; 
+    color: white;
+
+    background-color: rgba(0, 0, 0, 0.486);
+    background-blend-mode: overlay;
+
+}
+
+@media (max-width: 664px) {
+    .hero {
+        padding-top: 37vh; 
+    }
+  }
+
+@media (max-width: 379px) {
+    .hero {
+        padding-top: 25vh; 
+    }
+  }
+
+ 
+
+@font-face {
+    font-family: ChunkFive;
+    src: url("fonts/ChunkFive-Regular.otf") format("opentype");
+}
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    font-family: Garamond, serif;;
+}
+
+.hero h2 {
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+#instagram-button {
+    text-decoration: none;
+    color: inherit;
+  }
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+/* Buttons */
+.btn-custom {
+    background-color: #4da167;
+    color: black;
+    padding: 10px 25px;
+    font-size: 1.1rem;
+    border-radius: 25px;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    transition: 0.3s;
+    opacity: 0;
+    transform: scale(0.9); /* Shrink button initially */
+    animation: fadeInGrow 1.5s ease-out 1s forwards; /* Animate button after hero */
+}
+
+.home-img {
+    opacity: 0.5;
+    border: 5px solid black;
+}
+
+.btn-custom:hover {
+    background-color: white;
+    color: #4da167;
+    transform: scale(1.05);
+}
+
+
+
+/* Keyframes */
+@keyframes fadeInSlideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInSlideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInGrow {
+    0% {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

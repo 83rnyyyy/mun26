@@ -1,0 +1,123 @@
+body{
+    background-color: #27684a;
+}
+
+.committee-info {
+    margin-top: 40px;
+}
+
+#instagram-button {
+    text-decoration: none;
+    color: inherit;
+  }
+
+.hero h1 {
+    text-transform: uppercase;
+    font-size: 4em;
+    margin-bottom: 10px;
+    /* font-family: Garamond, serif;; */
+}
+
+h1 {
+    color: #FFFDD0;
+    font-weight: 600;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    color: white;
+}
+
+p {
+    color:white;
+}
+
+.committee-type {
+    color: white;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.img-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar{
+    background-color: #3f292b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.committee-img {
+    width:100%;
+        }
+
+@media (max-width: 992px) {
+    .committee-img {
+width: 50%;
+    }
+  }
+/* .committe-img {
+
+} */
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), no-repeat center center/cover;
+    background-image: url("https://png.pngtree.com/background/20230612/original/pngtree-the-circular-conference-room-of-an-un-conference-room-picture-image_3365542.jpg");
+    background-size: cover; 
+    
+    background-position: center; 
+    width: 100%;
+    padding-top: 50vh; 
+    
+    height: 100vh;
+    color: white;
+
+    background-color: rgba(0, 0, 0, 0.486);
+    background-blend-mode: overlay;
+}
+
+@media (max-width: 664px) {
+
+    .hero h1 {
+        font-size: 3em;
+    }
+
+    .committee-type {
+     
+        font-size: 3em;
+    }
+    /* .hero {
+        padding-top: 37vh; 
+    } */
+  }
+
+@media (max-width: 379px) {
+    .hero h1 {
+        font-size: 2.5em;
+    }
+    .committee-type {
+     
+        font-size: 2.3em;
+    }
+    /* .hero {
+        padding-top: 25vh; 
+    } */
+  }
+
+/* .nav-link{
+    text-decoration: none;
+    color: #4da167;
+    padding: 10px;
+    text-align: center;
+} */
