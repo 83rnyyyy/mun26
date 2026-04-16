@@ -1,0 +1,185 @@
+
+
+.itinerary-title {
+    color: #FFFDD0;
+    font-size: 4em;
+    text-transform: uppercase;
+    /* text-decoration: underline; */
+}
+
+#team {
+    width: 100%;
+}
+
+.registration-img {
+    width: 75%;
+}
+
+@media (min-width: 990px) {
+    .registration-img {
+      width: 50%;
+    }
+  }
+
+
+
+.registration-title {
+    color: #4da167;
+    font-size: 3.2em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    /* text-decoration: underline; */
+
+}
+
+.pricing {
+    color: rgb(29, 182, 82);
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.del-fee {
+    font-size: 25px;
+   
+}
+
+.pricing-options {
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.emph {
+    font-weight: 600;
+    font-size: 30px;
+    color: #4da167;
+}
+
+.conference-info {
+    color: #4da167;
+    font-size: 20px;
+}
+
+.registration {
+    background-color: #FFFDD0;
+    /* height: 75vh; */
+    margin-left: auto;
+}
+
+
+
+.date {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #93B28D;
+    font-family: ChunkFive;
+}
+
+.event-title {
+color: #4da167;
+font-size: 30px;
+}
+
+.time {
+    color: white;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.itinerary-plan {
+    color: #4da167
+}
+
+#instagram-button {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-bar{
+    background-color: #3f292b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+}
+
+body{
+    background-color: #27684a;
+}
+
+.hero h1 {
+    text-transform: uppercase;
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    /* font-family: Garamond, serif;; */
+}
+
+h1 {
+    color: #FFFDD0;
+    font-weight: 600;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    color: white;
+}
+
+p {
+    color:white;
+}
+
+.hero {
+    text-align: center;
+    /* padding: 50px 20px; */
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), no-repeat center center/cover;
+    background-image: url("https://www.worldvision.org.uk/media/equd1evg/flags-outside-the-un-building-in-genevea.jpg?width=1023&height=683&v=1d844f22f949270");
+    background-size: cover; 
+    /* Shift the image down slightly */
+    width: 100%;
+    padding-top: 50vh; 
+    /* height: 100vh; */
+    height: 100vh;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.486);
+    background-blend-mode: overlay;
+    
+}
+
+@media (max-width: 664px) {
+
+    .hero h1 {
+        font-size: 3em;
+    }
+
+    .registration-title {
+     
+        font-size: 2.3em;
+    }
+    .itinerary-title {
+        font-size: 2.3em;
+    }
+
+    .itinerary {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+  }
+
+@media (max-width: 379px) {
+    .hero h1 {
+        font-size: 2.3em;
+    }
+    .registration-title {
+     
+        font-size: 2em;
+    }
+    .itinerary-title {
+        font-size: 2em;
+    }
+    /* .hero {
+        padding-top: 25vh; 
+    } */
+  }
