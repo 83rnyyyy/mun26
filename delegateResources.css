@@ -121,6 +121,10 @@ h1 {
     font-weight: 600;
 }
 
+h2 {
+    color: white;
+}
+
 .hero p {
     font-size: 1.2rem;
     margin: 20px 0;
