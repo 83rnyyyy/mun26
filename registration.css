@@ -158,14 +158,8 @@ p {
      
         font-size: 2.3em;
     }
-    .itinerary-title {
-        font-size: 2.3em;
-    }
 
-    .itinerary {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
+
   }
 
 @media (max-width: 379px) {
@@ -176,10 +170,4 @@ p {
      
         font-size: 2em;
     }
-    .itinerary-title {
-        font-size: 2em;
-    }
-    /* .hero {
-        padding-top: 25vh; 
-    } */
   }
